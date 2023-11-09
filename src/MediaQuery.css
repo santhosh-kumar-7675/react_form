@@ -1,0 +1,101 @@
+@media screen and (max-width: 320px) {
+  .formContainer{
+    margin: 80px auto;
+    width: 75% !important;
+    border: 2px solid #363062;
+    padding: 40px;
+    background-color: #F5F5F5 ;
+    border-radius: 5px;
+    box-shadow: #4D4C7D 4px 1px 40px;
+  }   
+      
+  #submitButton{
+    width: 102%;
+    height: 40px;
+    background-color: #4D4C7D;
+    border: 2px solid #363062;
+    border-radius: 3px;
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  .confirmation{
+    position: absolute;
+    top: -1px;
+    right: 25px;
+    display: none;
+  }   
+  #hCenter{
+    font-size: 22px;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .formContainer{
+    margin: 80px auto;
+    width: 60% !important;
+    border: 2px solid #363062;
+    padding: 40px;
+    background-color: #F5F5F5 ;
+    border-radius: 5px;
+    box-shadow: #4D4C7D 4px 1px 40px;
+  } 
+  #submitButton{
+    width: 102%;
+  }
+  #hCenter{
+    font-size: 24px;
+  }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .formContainer{
+    margin: 80px auto;
+    width: 60% !important;
+  } 
+  #submitButton{
+    width: 102%;
+  }
+
+  .confirmation{
+    position: absolute;
+    top: -5px;
+    right: 25px;
+    display: none;
+  }   
+  #hCenter{
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .formContainer{
+    margin: 80px auto;
+    width: 50% !important;
+  } 
+  .confirmation{
+    position: absolute;
+    top: -5px;
+    right: 25px;
+    display: none;
+  }   
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .formContainer{
+    margin: 100px auto;
+    width: 40% !important ;
+   
+  } 
+  .confirmation{
+    position: absolute;
+    top: -5px;
+    right: 25px;
+    display: none;
+  }   
+}
+

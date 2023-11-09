@@ -1,38 +1,168 @@
-.App {
+body{
+  background-color: #F5F5F5;
+}
+
+.container{
+  margin: 50px auto;
+  width: 90%;
+}
+.formContainer{
+  margin: 0 auto;
+  width: 30%;
+  border: 2px solid #363062;
+  padding: 20px 40px;
+  background-color: #F5F5F5 ;
+  border-radius: 5px;
+  box-shadow: #4D4C7D 4px 1px 40px;
+}   
+
+.formcenter{
+  width: 100%;
+}
+
+.alert{
+  color: rgb(199, 12, 12);
+  margin: 0px 0px 5px 0px;
+}
+
+#hCenter{
+  color: #4D4C7D;
   text-align: center;
+  letter-spacing: 2px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+label,p,h2{
+  color: #363062;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+label{
+  font-weight: 700;
+  font-size: 18px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.formClass input{
+  height: 25px;
+  font-size: 16px;
+  width: 95%;
+  margin: 8px 0;
+  background-color: #F5F5F5;
+  border: 2px solid #363062;
+  border-radius: 3px;
+  padding: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.formClass input:focus{
+  outline: #665bb891 solid 3px;
+  border-radius: 3px;
+  border: #363062 solid 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#submitButton{
+  margin: 10px 0 25px 0;
 }
+
+#submitButton{
+  width: 99.2%;
+  height: 40px;
+  background-color: #4D4C7D;
+  border: 2px solid #363062;
+  border-radius: 3px;
+  color: #F5F5F5;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+#submitButton:hover{
+  /* background-color: #F5F5F5;
+  border: 2px solid #363062;
+  border-radius: 3px;
+  color: #363062;
+  font-size: 14px; */
+  outline: 3px solid #4d4c7d94;
+}
+
+.confirmation p{
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px;
+  color: #4D4C7D;
+  border: 2px solid #4D4C7D;
+  border-radius: 3px;
+}
+
+.confirmation{
+  position: absolute;
+  top: 0px;
+  right: 25px;
+  display: none;
+}
+
+.result{
+  border: 2px solid #363062;
+  padding: 5px 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: none;
+}
+
+.radioButton{
+  width: 8% !important;
+  margin: 5px !important;
+  height: 20px !important;
+  vertical-align: middle;
+}
+
+
+.radioButton:focus{
+  outline: none !important;
+  border-radius: none !important;
+  border: none !important;
+}
+
+input[type="radio"].radioButton:checked {
+  border: 2px solid #363062 !important;
+  background-color: #363062 !important;
+}
+
+
+#customLabel{
+  font-size: 16px;
+}
+
+.tacButton{
+  width: 8% !important;
+  margin: 5px !important;
+  height: 20px !important;
+  vertical-align: middle;
+}
+
+.tacButton:focus{
+  outline: none !important;
+  border-radius: none !important;
+  border: none !important;
+}
+
+.formElement{
+  margin-bottom: 10px;
+}
+
+select{
+  font-size: 16px;
+  width: 98%;
+  margin: 8px 0;
+  background-color: #F5F5F5;
+  border: 2px solid #363062;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+select:focus{
+  outline: #665bb891 solid 3px;
+  border-radius: 3px;
+  border: #363062 solid 2px;
+}
+
+
+
